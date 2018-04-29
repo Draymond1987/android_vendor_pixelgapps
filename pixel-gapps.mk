@@ -57,7 +57,12 @@ PRODUCT_PACKAGES += \
     DynamiteModulesD \
     GoogleCertificates \
     SetupWizard \
+    Turbo \
     Velvet
+
+# Include package overlays
+PRODUCT_PACKAGE_OVERLAYS += \
+    vendor/gapps/overlay/
 
 # /symlinks
 PRODUCT_PACKAGES += \
