@@ -18,10 +18,12 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 # /app
 PRODUCT_PACKAGES += \
     FaceLock \
+    CalculatorGooglePrebuilt \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
+    Markup \
     talkback
 
 # /framework
@@ -35,14 +37,18 @@ PRODUCT_PACKAGES += \
     AndroidPlatformServices \
     ConfigUpdater \
     ConnMetrics \
+    GoogleContacts \
     GmsCoreSetupPrebuilt \
     GoogleBackupTransport \
+    GoogleDialer \
     GoogleFeedback \
     GoogleOneTimeInitializer \
     GooglePartnerSetup \
     GoogleServicesFramework \
+    LatinIMEGooglePrebuilt \
     Phonesky \
     PixelLauncher \
+    PrebuiltBugle \
     PrebuiltGmsCore \
     DynamiteLoader.apk \
     DynamiteModulesA \
