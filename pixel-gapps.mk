@@ -23,7 +23,9 @@ PRODUCT_PACKAGES += \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
+    PrebuiltBugle \
     Markup \
+    RetroMusicPlayer
     talkback
 
 # /framework
@@ -48,7 +50,6 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     Phonesky \
     PixelLauncher \
-    PrebuiltBugle \
     PrebuiltGmsCore \
     DynamiteLoader.apk \
     DynamiteModulesA \
