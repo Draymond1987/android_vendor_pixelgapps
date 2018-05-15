@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     Hangouts \
     PrebuiltBugle \
     Markup \
-    RetroMusicPlayer
+    RetroMusicPlayer \
     talkback
 
 # /framework
