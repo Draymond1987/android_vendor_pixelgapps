@@ -17,6 +17,7 @@ $(call inherit-product, vendor/pixelgapps/pixel-gapps-blobs.mk)
 
 # /app
 PRODUCT_PACKAGES += \
+    AmbientSensePrebuilt \
     FaceLock \
     CalculatorGooglePrebuilt \
     GoogleCamera \
