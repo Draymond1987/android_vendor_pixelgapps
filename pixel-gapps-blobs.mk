@@ -13,23 +13,46 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/pixelgapps/etc/permissions/com.google.vr.platform.xml:system/etc/permissions/com.google.vr.platform.xml \
     vendor/pixelgapps/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
     vendor/pixelgapps/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/pixelgapps/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
+    vendor/pixelgapps/etc/permissions/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml \
     vendor/pixelgapps/etc/preferred-apps/google.xml:system/etc/preferred-apps/google.xml \
+    vendor/pixelgapps/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml \
     vendor/pixelgapps/etc/sysconfig/google.xml:system/etc/sysconfig/google.xml \
     vendor/pixelgapps/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml \
     vendor/pixelgapps/etc/sysconfig/google_vr_build.xml:system/etc/sysconfig/google_vr_build.xml \
     vendor/pixelgapps/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     vendor/pixelgapps/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/pixelgapps/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/pixelgapps/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
+    vendor/pixelgapps/lib/libdvr.so:system/lib/libdvr.so \
+    vendor/pixelgapps/lib/libeaselcomm.so:system/lib/libeaselcomm.so \
+    vendor/pixelgapps/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/pixelgapps/lib/libdvr_loader.so:system/lib/libdvr_loader.so \
     vendor/pixelgapps/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/pixelgapps/lib/libfrsdk.so:system/lib/libfrsdk.so \
     vendor/pixelgapps/lib64/libfrsdk.so:system/lib64/libfrsdk.so \
+    vendor/pixelgapps/lib64/libwallpapers-breel-jni.so:system/lib64/libwallpapers-breel-jni.so \
+    vendor/pixelgapps/lib64/libvr_hwc-hal.so:system/lib64/libvr_hwc-hal.so \
     vendor/pixelgapps/lib64/libfacenet.so:system/lib64/libfacenet.so \
     vendor/pixelgapps/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     vendor/pixelgapps/lib64/libgdx.so:system/lib64/libgdx.so \
+    vendor/pixelgapps/lib64/libdvr.so:system/lib64/libdvr.so \
+    vendor/pixelgapps/lib64/libeaselcomm.so:system/lib64/libeaselcomm.so \
+    vendor/pixelgapps/lib64/libfrsdk.so:system/lib64/libfrsdk.so \
+    vendor/pixelgapps/lib64/libdvr_loader.so:system/lib64/libdvr_loader.so \
     vendor/pixelgapps/lib64/libwallpapers-breel-jni.so:system/lib64/libwallpapers-breel-jni.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libccl.so:system/priv-app/Velvet/lib/arm64/libccl.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libcronet.61.0.3160.0.so:system/priv-app/Velvet/lib/arm64/libcronet.61.0.3160.0.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libframesequence.so:system/priv-app/Velvet/lib/arm64/libframesequence.so \
     vendor/pixelgapps/lib64/libjni_latinimegoogle.so:system/lib64/libjni_latinimegoogle.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_jni.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so:system/priv-app/Velvet/lib/arm64/libgoogle_speech_micro_jni.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libnativecrashreporter.so:system/priv-app/Velvet/lib/arm64/libnativecrashreporter.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so:system/priv-app/Velvet/lib/arm64/liboffline_actions_jni.so \
+    vendor/pixelgapps/priv-app/Velvet/lib/arm64/libhere_allpurpose.so:system/priv-app/Velvet/lib/arm64/libhere_allpurpose.so \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.fst:system/usr/srec/en-US/APP_NAME.fst \
     vendor/pixelgapps/usr/srec/en-US/APP_NAME.syms:system/usr/srec/en-US/APP_NAME.syms \
     vendor/pixelgapps/usr/srec/en-US/am_phonemes.syms:system/usr/srec/en-US/am_phonemes.syms \
