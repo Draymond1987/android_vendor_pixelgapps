@@ -22,6 +22,9 @@
     <feature name="com.google.android.apps.photos.NEXUS_PRELOAD" />
     <feature name="com.google.android.apps.photos.nexus_preload" />
 
+    <!-- Enable Zero Touch Provisioning support for 2016 and newer Nexus devices. -->
+    <feature name="com.google.android.feature.ZERO_TOUCH" />
+
     <!-- Allow Google unbundled tethering entitlement app in background -->
     <allow-in-power-save package="com.google.android.tetheringentitlement" />
 

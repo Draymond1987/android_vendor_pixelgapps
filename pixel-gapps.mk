@@ -20,13 +20,17 @@ PRODUCT_PACKAGES += \
     AmbientSensePrebuilt \
     FaceLock \
     CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt \
     GoogleCamera \
     GoogleContactsSyncAdapter \
     GoogleTTS \
     Hangouts \
+    GoogleVrCore \
     PrebuiltBugle \
+    NexusWallpapersStubPrebuilt \
     Markup \
     RetroMusicPlayer \
+    Ornament \
     talkback
 
 # /framework
@@ -38,6 +42,7 @@ PRODUCT_PACKAGES += \
 # /priv-app
 PRODUCT_PACKAGES += \
     AndroidPlatformServices \
+    AndroidMigratePrebuilt \
     ConfigUpdater \
     ConnMetrics \
     GoogleContacts \
@@ -76,3 +81,12 @@ PRODUCT_PACKAGES += \
 # wallpaper location prop
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.wallpapers_loc_request_suw=true
+
+#telephony permissions
+PRODUCT_COPY_FILES += \
+    vendor/gapps/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
+    vendor/gapps/etc/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml
+
+# Default priv-app permissions
+PRODUCT_COPY_FILES += \
+    vendor/gapps/etc/permissions/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml
