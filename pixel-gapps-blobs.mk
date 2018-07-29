@@ -111,4 +111,5 @@ PRODUCT_COPY_FILES += \
     vendor/pixelgapps/usr/srec/en-US/voice_actions.config:system/usr/srec/en-US/voice_actions.config \
     vendor/pixelgapps/usr/srec/en-US/voice_actions_compiler.config:system/usr/srec/en-US/voice_actions_compiler.config \
     vendor/pixelgapps/usr/srec/en-US/word_confidence_classifier:system/usr/srec/en-US/word_confidence_classifier \
-    vendor/pixelgapps/usr/srec/en-US/wordlist.syms:system/usr/srec/en-US/wordlist.syms
+    vendor/pixelgapps/usr/srec/en-US/wordlist.syms:system/usr/srec/en-US/wordlist.syms \
+    vendor/pixelgapps/etc/ambient/matcher_tah.leveldb:system/etc/ambient/matcher_tah.leveldb
